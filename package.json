@@ -1,6 +1,6 @@
 {
     "name": "@cravingcollector-inc/react-native-fast-image",
-    "version": "8.6.3",
+    "version": "8.6.4",
     "description": "FastImage, performant React Native image component.",
     "keywords": [
         "cache",
@@ -66,20 +66,20 @@
         "@babel/core": "^7.14.6",
         "@babel/runtime": "^7.14.6",
         "@types/jest": "^26.0.24",
-        "@types/react": "^17.0.14",
-        "@types/react-native": "^0.69.5",
-        "@types/react-test-renderer": "^17.0.1",
+        "@types/react": "18.0.0",
+        "@types/react-native": "0.70.4",
+        "@types/react-test-renderer": "18.0.0",
         "dv-scripts": "^1.6.0",
         "eslint-config-dv-scripts": "^1.1.1",
-        "metro-react-native-babel-preset": "^0.66.1",
+        "metro-react-native-babel-preset": "^0.72.3",
         "prettier": "^2.3.2",
-        "react": "17.0.1",
-        "react-native": "0.64.2",
-        "react-test-renderer": "17.0.1",
+        "react": "18.1.0",
+        "react-native": "0.70.4",
+        "react-test-renderer": "18.1.0",
         "typescript": "^4.3.5"
     },
     "peerDependencies": {
         "react": "^17 || ^18",
-        "react-native": ">=0.60.0"
+        "react-native": "0.70.4"
     }
 }
