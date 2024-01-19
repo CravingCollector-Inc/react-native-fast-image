@@ -1,3 +1,5 @@
+### This is forked from [karamanmertcan/react-native-fast-image](https://github.com/karamanmertcan/react-native-fast-image)
+
 <h1 align="center">
   🚩 FastImage
 </h1>
