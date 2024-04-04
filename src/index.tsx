@@ -1,20 +1,18 @@
 import React, { forwardRef, memo } from 'react'
 import {
-    View,
-    Image,
-    NativeModules,
-    requireNativeComponent,
-    StyleSheet,
-    FlexStyle,
-    LayoutChangeEvent,
-    ShadowStyleIOS,
-    StyleProp,
-    TransformsStyle,
-    ImageRequireSource,
-    Platform,
     AccessibilityProps,
-    ViewProps,
     ColorValue,
+    Image,
+    ImageRequireSource,
+    ImageStyle,
+    LayoutChangeEvent,
+    NativeModules,
+    Platform,
+    requireNativeComponent,
+    StyleProp,
+    StyleSheet,
+    View,
+    ViewProps,
 } from 'react-native'
 
 export type ResizeMode = 'contain' | 'cover' | 'stretch' | 'center'
@@ -64,20 +62,6 @@ export interface OnProgressEvent {
         loaded: number
         total: number
     }
-}
-
-export interface ImageStyle extends FlexStyle, TransformsStyle, ShadowStyleIOS {
-    backfaceVisibility?: 'visible' | 'hidden'
-    borderBottomLeftRadius?: number
-    borderBottomRightRadius?: number
-    backgroundColor?: string
-    borderColor?: string
-    borderWidth?: number
-    borderRadius?: number
-    borderTopLeftRadius?: number
-    borderTopRightRadius?: number
-    overlayColor?: string
-    opacity?: number
 }
 
 export interface FastImageProps extends AccessibilityProps, ViewProps {
